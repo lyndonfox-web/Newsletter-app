@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Failure</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+      .center {
+        margin: 20px;
+      }
+      .middle {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="alert alert-danger container" role="alert">
+        <h2 class="alert-heading">
+          Uh oh! There was an error
+        </h2>
+        <p>
+          There was an error with signing up, please try again.
+        </p>
+        <hr />
+        <p class="mb-0">
+          Whenever you need to, be sure to use margin utilities to keep things
+          nice and tidy.
+        </p>
+        <div class="middle">
+          <form action="/failure" method="post">
+            <button
+              class="btn btn-lg btn-warning center"
+              type="submit"
+              name="button"
+            >
+              Try Again
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
