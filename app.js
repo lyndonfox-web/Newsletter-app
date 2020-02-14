@@ -35,10 +35,10 @@ app.post('/', function(req, res) {
   // console.log(firstName, lastName, email);
 
   var options = {
-    url: 'https://us20.api.mailchimp.com/3.0/lists/b8c292d8e1',
+    url: 'https://us20.api.mailchimp.com/3.0/lists////////',
     method: 'POST',
     headers: {
-      Authorization: 'lyndon1 12453365229e5c520ded58580bb1526a-us20'
+      Authorization: 'lyndon1 1245?/////////////////'
     },
     body: jsonData
   };
@@ -67,7 +67,6 @@ app.listen(process.env.PORT || 3000, function() {
   console.log('Server is runing on port 3000.');
 });
 
-//  12453365229e5c520ded58580bb1526a-us20
-// id b8c292d8e1
+
 
 //todo  https://stormy-beach-32188.herokuapp.com/
